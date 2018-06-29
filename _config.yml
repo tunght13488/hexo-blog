@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Tung Ha's Blog
-subtitle:
+title: Tung Ha
+subtitle: My (would be) tech blog
 description:
 keywords: blog
 author: Tung Ha
-language:
-timezone:
+language: en
+timezone: Asia/Singapore
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
