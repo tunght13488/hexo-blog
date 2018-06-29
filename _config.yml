@@ -110,4 +110,27 @@ theme_config:
   social_links:
     github: https://github.com/tunght13488
     twitter: https://twitter.com/tunght13488
+    facebook: https://www.facebook.com/tunght130488
+    linkedin: https://www.linkedin.com/in/the-tung-ha-47437352/
+    mail: mailto:tunght13488@gmail.com
 
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    gravatar: true
+
+  gravatar:
+    email: tunght13488@gmail.com
+
+  # rss: true
+
+  favicon:
+    desktop:
+      gravatar: true
+    android:
+      gravatar: true
+    apple:
+      gravatar: true
+
+  projects_url: https://github.com/tunght13488
