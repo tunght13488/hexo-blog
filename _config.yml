@@ -6,14 +6,14 @@
 title: Tung Ha's Blog
 subtitle:
 description:
-keywords:
+keywords: blog
 author: Tung Ha
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://tunght.com
+url: https://tunght.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,9 +73,33 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+search:
+  path: search.xml
+  field: post
+
+theme_config:
+  nav:
+    Home: /
+    Writing: /archives
+    search: /Search/
+
+  disqus:
+    enabled: true
+    shortname: tunght13488
+
+  google_analytics:
+    enabled: true
+    id: 'UA-121646604-1'
+
+  social_links:
+    github: https://github.com/tunght13488
+    twitter: https://twitter.com/tunght13488
+
